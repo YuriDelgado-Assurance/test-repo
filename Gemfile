@@ -54,6 +54,11 @@ group :development, :test do
 end
 
 group :development do
+  gem "byebug", platform: :mri
+  gem "capybara"
+  gem "database_cleaner"
+  gem "factory_bot_rails"
+  gem "rspec-rails"
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
 
